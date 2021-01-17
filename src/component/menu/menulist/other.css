@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 449px 449px 449px;
+    background-color:transparent;
+    padding: initial;
+  }
+  .grid-item {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    color:white;
+  }
+  .othervideo{
+
+      width: 100%;
+  }
+  .modal-contentvideo{
+    background-color:transparent;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    width: 50%;
+    color:white;
+  }
+
+  .closevideo {
+    color:white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .closevideo:hover,
+  .closevideo:focus {
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  iframe {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px #000;
+    height: 380px;
+  } 
+ .mobilevideoplay{
+   display:none;
+ }
+ .videomenu{
+  width:100%;
+  
+}

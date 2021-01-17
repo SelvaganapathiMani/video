@@ -1,0 +1,157 @@
+@media screen and (max-width:1300px) {
+    .navcolum, a.action {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 15px;
+    }
+     
+  }
+  @media screen and (max-width:1050px) {
+    .modal-contentmenu
+    {
+      background-color:transparent;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%;
+      color: #000;
+    }
+    
+      .mobilevideos{
+          display: none;
+      }
+       .mobilemenu{
+            display:none;
+       }
+    .grid-containers.grid-container{
+        display: grid;
+        grid-template-columns:auto;
+        background-color:transparent;
+        padding: initial;
+        width: auto;
+      }
+      .mobilevideoplay.mobilevideoplay{
+        display:block;
+      }
+     
+
+    .menuhr{
+        border: 5px solid white;
+        margin-top: 0px;
+        font-size: 30px;
+     } 
+     .menuhead{
+        width: 80%;
+     }
+     .menurow:after {
+        content: "";
+        display: table;
+        clear: both;
+      } 
+      .menucoloum
+      {     
+            float: left;
+            width: 20%;
+            position: fixed;
+      }
+      #menuupload {
+          color: yellow;
+      }
+
+      .newaction{
+        display: block;
+        color: #f2fff1;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: monospace;
+        font-style: oblique;
+        font-weight: bold;
+        }
+      .newnavcoloum{
+          width: 100%;
+          
+      }
+      /* popup */
+      .modalpop {
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-contentpop {
+        background-color:white;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        color: #000;
+      }
+      
+      /* The Close Button */
+      .closepop {
+        color:black;
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      
+      .closepop:hover,
+      .closepop:focus {
+        color:red;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .menuhr.menuhr{
+          display: block;
+      }
+      .mobileview.mobileview{
+        display: none;
+      }
+     
+      
+      
+        
+  }
+  @media screen and (max-width:500px) {
+
+    .grid-containers.grid-container{
+        display: grid;
+        grid-template-columns:auto;
+        background-color:transparent;
+        padding: initial;
+        width: auto;
+      }
+      .menuhr{
+        border: 5px solid white;
+        margin-top: 0px;
+        font-size: 30px;
+     } 
+     .menuhead{
+        width: 80%;
+     }
+     .menurow:after {
+        content: "";
+        display: table;
+        clear: both;
+      } 
+      .menucoloum
+      {     
+            float: left;
+            width: 20%;
+            position: fixed;
+      }
+
+    
+
+
+  }

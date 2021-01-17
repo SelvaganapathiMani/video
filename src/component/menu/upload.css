@@ -1,0 +1,33 @@
+.loadprogress{
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+  font-family: initial;
+  text-align: right;
+}
+.progress{
+  background-color:#282c34a8;
+  width: 100%;
+}
+
+.nameinput{
+ background-color: rgb(255, 255, 255);
+ width: 100%;
+ padding-bottom:10px;
+ padding-top:10px;
+ box-shadow: inset 0 -1px 1px black;
+}
+.fireupload{
+    padding: 20px;
+    background-color: beige;
+
+}
+
+  .uploadbutton{
+        margin-left: 25%;
+     padding: 20px;
+     border-radius: 20px;
+     border: 2px solid black;
+     background-color: white;
+     width: 50%;
+  }

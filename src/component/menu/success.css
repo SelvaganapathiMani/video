@@ -1,0 +1,20 @@
+.success
+{
+    background-color: greenyellow;
+    padding: 50px;
+    border-radius: 50%;
+}
+.successcircul{
+    text-align: center;
+    font-size: 65px;
+    font-family: cursive;
+}
+.successbutton{
+    width:30%;
+    margin-top: 30px;
+    margin-left:35%;
+    border-radius: 30%;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
