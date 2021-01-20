@@ -2,13 +2,14 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/database';
 const firebaseConfig = {
-    apiKey: "AIzaSyCqbzbFp7xZPLNYxyWwvGLWAN4itkr-pOk",
-    authDomain: "hify-a660c.firebaseapp.com",
-    databaseURL: "https://hify-a660c.firebaseio.com",
-    projectId: "hify-a660c",
-    storageBucket: "hify-a660c.appspot.com",
-    messagingSenderId: "834671752958",
-    appId: "1:834671752958:web:b43921fe357d842440d7af"
+    apiKey: "AIzaSyCM0AsUhkrmn2sw46_q0-B8h2AzUrtv1Vo",
+    authDomain: "button-vpn.firebaseapp.com",
+    databaseURL: "https://button-vpn.firebaseio.com",
+    projectId: "button-vpn",
+    storageBucket: "button-vpn.appspot.com",
+    messagingSenderId: "579880195207",
+    appId: "1:579880195207:web:2157b8da16a022097a1422",
+    measurementId: "G-D4VMQSVJDC"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

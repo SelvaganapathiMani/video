@@ -22,7 +22,8 @@ handlemenu()
 
     render() { 
         return (
-        <div><div className="head">
+        <div>
+            <div className="head">
             <div className="menurow">
               <div className="menuhr menucoloum" onClick={this.handlemenu.bind(this)}>Menu</div>
               <h1 className="menuhead">HIFY</h1>
